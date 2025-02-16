@@ -1,0 +1,1118 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix football: <http://example.org/football-ontology#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://example.org/football-ontology#Channel1
+football:Channel1 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Channel2
+football:Channel2 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Channel3
+football:Channel3 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Channel4
+football:Channel4 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Channel5
+football:Channel5 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Kit1
+football:Kit1 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Kit2
+football:Kit2 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Kit4
+football:Kit4 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Kit5
+football:Kit5 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#League1
+football:League1 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#League2
+football:League2 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#League3
+football:League3 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#League4
+football:League4 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#League5
+football:League5 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Manager1
+football:Manager1 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Manager2
+football:Manager2 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Manager3
+football:Manager3 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Manager4
+football:Manager4 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Manager5
+football:Manager5 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Match1
+football:Match1 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Match2
+football:Match2 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Match3
+football:Match3 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Match4
+football:Match4 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Match5
+football:Match5 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Player1
+football:Player1 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Player2
+football:Player2 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Player3
+football:Player3 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Player4
+football:Player4 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Player5
+football:Player5 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#PlayerPosition1
+football:PlayerPosition1 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#PlayerPosition2
+football:PlayerPosition2 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#PlayerPosition3
+football:PlayerPosition3 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#PlayerPosition4
+football:PlayerPosition4 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#PlayerPosition5
+football:PlayerPosition5 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Referee1
+football:Referee1 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Referee2
+football:Referee2 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Referee3
+football:Referee3 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Referee4
+football:Referee4 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Referee5
+football:Referee5 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Season1
+football:Season1 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Season2
+football:Season2 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Season3
+football:Season3 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Season4
+football:Season4 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Season5
+football:Season5 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Stadium1
+football:Stadium1 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Stadium2
+football:Stadium2 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Stadium3
+football:Stadium3 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Stadium4
+football:Stadium4 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Stadium5
+football:Stadium5 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Statistics1
+football:Statistics1 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Statistics2
+football:Statistics2 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Statistics3
+football:Statistics3 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Statistics4
+football:Statistics4 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Statistics5
+football:Statistics5 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Team1
+football:Team1 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Team2
+football:Team2 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Team3
+football:Team3 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Team4
+football:Team4 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Team5
+football:Team5 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Tournament1
+football:Tournament1 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Tournament2
+football:Tournament2 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Tournament3
+football:Tournament3 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Tournament4
+football:Tournament4 rdf:type owl:AnnotationProperty .
+
+
+###  http://example.org/football-ontology#Tournament5
+football:Tournament5 rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2002/07/owl#cardinality
+owl:cardinality rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#date
+xsd:date rdf:type rdfs:Datatype .
+
+
+###  http://www.w3.org/2001/XMLSchema#time
+xsd:time rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://example.org/football-ontology#LeagueRights
+football:LeagueRights rdf:type owl:ObjectProperty ;
+                      football:League1 football:Channel1 ;
+                      football:League2 football:Channel2 ;
+                      football:League3 football:Channel3 ;
+                      football:League4 football:Channel4 ;
+                      football:League5 football:Channel5 .
+
+
+###  http://example.org/football-ontology#TopGoalScorer
+football:TopGoalScorer rdf:type owl:ObjectProperty ;
+                       owl:cardinality "1"^^xsd:nonNegativeInteger .
+
+
+###  http://example.org/football-ontology#belongsTo
+football:belongsTo rdf:type owl:ObjectProperty ;
+                   owl:inverseOf football:hasTeam ;
+                   rdfs:domain football:Team ;
+                   rdfs:range football:League ;
+                   football:Team1 football:League1 ;
+                   football:Team2 football:League2 ;
+                   football:Team3 football:League3 ;
+                   football:Team4 football:League4 ;
+                   football:Team5 football:League5 .
+
+
+###  http://example.org/football-ontology#broadcastedBy
+football:broadcastedBy rdf:type owl:ObjectProperty ;
+                       football:Match1 football:Channel1 ;
+                       football:Match2 football:Channel2 ;
+                       football:Match3 football:Channel3 ;
+                       football:Match4 football:Channel4 ;
+                       football:Match5 football:Channel5 ;
+                       owl:cardinality "1"^^xsd:nonNegativeInteger .
+
+
+###  http://example.org/football-ontology#hasKit
+football:hasKit rdf:type owl:ObjectProperty ;
+                owl:cardinality "1"^^xsd:nonNegativeInteger .
+
+
+###  http://example.org/football-ontology#hasManager
+football:hasManager rdf:type owl:ObjectProperty ;
+                    football:Team1 football:Manager1 ;
+                    football:Team2 football:Manager2 ;
+                    football:Team3 football:Manager3 ;
+                    football:Team4 football:Manager4 ;
+                    football:Team5 football:Manager5 .
+
+
+###  http://example.org/football-ontology#hasManagerNationality
+football:hasManagerNationality rdf:type owl:ObjectProperty ;
+                               football:Manager1 football:Nationality1 ;
+                               football:Manager2 football:Nationality2 ;
+                               football:Manager3 football:Nationality3 ;
+                               football:Manager4 football:Nationality4 ;
+                               football:Manager5 football:Nationality5 .
+
+
+###  http://example.org/football-ontology#hasMatch
+football:hasMatch rdf:type owl:ObjectProperty .
+
+
+###  http://example.org/football-ontology#hasNationality
+football:hasNationality rdf:type owl:ObjectProperty ;
+                        football:Player1 football:Nationality1 ;
+                        football:Player2 football:Nationality2 ;
+                        football:Player3 football:Nationality3 ;
+                        football:Player4 football:Nationality4 ;
+                        football:Player5 football:Nationality5 ;
+                        football:Referee1 football:Nationality6 ;
+                        football:Referee2 football:Nationality7 ;
+                        football:Referee3 football:Nationality8 ;
+                        football:Referee4 football:Nationality9 ;
+                        football:Referee5 football:Nationality10 .
+
+
+###  http://example.org/football-ontology#hasPlayer
+football:hasPlayer rdf:type owl:ObjectProperty ;
+                   football:Team1 football:Player1 ;
+                   football:Team2 football:Player2 ;
+                   football:Team3 football:Player3 ;
+                   football:Team4 football:Player4 ;
+                   football:Team5 football:Player5 .
+
+
+###  http://example.org/football-ontology#hasPlayerPosition
+football:hasPlayerPosition rdf:type owl:ObjectProperty .
+
+
+###  http://example.org/football-ontology#hasReferee
+football:hasReferee rdf:type owl:ObjectProperty ;
+                    football:Match1 football:Referee1 ;
+                    football:Match2 football:Referee2 ;
+                    football:Match3 football:Referee3 ;
+                    football:Match4 football:Referee4 ;
+                    football:Match5 football:Referee5 .
+
+
+###  http://example.org/football-ontology#hasSeason
+football:hasSeason rdf:type owl:ObjectProperty ;
+                   football:Tournament1 football:Season1 ;
+                   football:Tournament2 football:Season2 ;
+                   football:Tournament3 football:Season3 ;
+                   football:Tournament4 football:Season4 ;
+                   football:Tournament5 football:Season5 .
+
+
+###  http://example.org/football-ontology#hasStatistics
+football:hasStatistics rdf:type owl:ObjectProperty ;
+                       football:Player1 football:Statistics1 ;
+                       football:Player2 football:Statistics2 ;
+                       football:Player3 football:Statistics3 ;
+                       football:Player4 football:Statistics4 ;
+                       football:Player5 football:Statistics5 .
+
+
+###  http://example.org/football-ontology#hasTeam
+football:hasTeam rdf:type owl:ObjectProperty ;
+                 rdfs:domain football:League ;
+                 rdfs:range football:Team .
+
+
+###  http://example.org/football-ontology#hasTeams
+football:hasTeams rdf:type owl:ObjectProperty ;
+                  football:Match1 football:Team1 ,
+                                  football:Team2 ;
+                  football:Match2 football:Team3 ,
+                                  football:Team4 ;
+                  football:Match3 football:Team1 ,
+                                  football:Team5 ;
+                  football:Match4 football:Team2 ,
+                                  football:Team3 ;
+                  football:Match5 football:Team4 ,
+                                  football:Team5 ;
+                  owl:cardinality "2"^^xsd:nonNegativeInteger .
+
+
+###  http://example.org/football-ontology#participatesIn
+football:participatesIn rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://example.org/football-ontology#NbOfAssists
+football:NbOfAssists rdf:type owl:DatatypeProperty ;
+                     football:Statistics1 8.0 ;
+                     football:Statistics2 5.0 ;
+                     football:Statistics3 10.0 ;
+                     football:Statistics4 12.0 ;
+                     football:Statistics5 15.0 .
+
+
+###  http://example.org/football-ontology#NbOfGoals
+football:NbOfGoals rdf:type owl:DatatypeProperty ;
+                   football:Statistics1 15.0 ;
+                   football:Statistics2 10.0 ;
+                   football:Statistics3 12.0 ;
+                   football:Statistics4 18.0 ;
+                   football:Statistics5 20.0 .
+
+
+###  http://example.org/football-ontology#Position
+football:Position rdf:type owl:DatatypeProperty ;
+                  football:PlayerPosition1 "Left" ;
+                  football:PlayerPosition2 "Right" ;
+                  football:PlayerPosition3 "Center" ;
+                  football:PlayerPosition4 "Right" ;
+                  football:PlayerPosition5 "Left" .
+
+
+###  http://example.org/football-ontology#TeamPos
+football:TeamPos rdf:type owl:DatatypeProperty .
+
+
+###  http://example.org/football-ontology#hasChannelRating
+football:hasChannelRating rdf:type owl:DatatypeProperty ;
+                          football:Channel1 4.5 ;
+                          football:Channel2 3.8 ;
+                          football:Channel3 4.0 ;
+                          football:Channel4 4.2 ;
+                          football:Channel5 3.5 .
+
+
+###  http://example.org/football-ontology#hasChannelSubscriptionFee
+football:hasChannelSubscriptionFee rdf:type owl:DatatypeProperty ;
+                                   football:Channel1 9.99 ;
+                                   football:Channel2 7.99 ;
+                                   football:Channel3 8.49 ;
+                                   football:Channel4 8.99 ;
+                                   football:Channel5 6.99 .
+
+
+###  http://example.org/football-ontology#hasClubPresident
+football:hasClubPresident rdf:type owl:DatatypeProperty ;
+                          football:Team1 football:ClubPresident1 ;
+                          football:Team2 football:ClubPresident2 ;
+                          football:Team3 football:ClubPresident3 ;
+                          football:Team4 football:ClubPresident4 ;
+                          football:Team5 football:ClubPresident5 .
+
+
+###  http://example.org/football-ontology#hasContractEndDate
+football:hasContractEndDate rdf:type owl:DatatypeProperty ;
+                            football:Player1 "2025-12-31"^^xsd:date ;
+                            football:Player2 "2024-12-31"^^xsd:date ;
+                            football:Player3 "2023-12-31"^^xsd:date ;
+                            football:Player4 "2024-06-30"^^xsd:date ;
+                            football:Player5 "2025-07-15"^^xsd:date .
+
+
+###  http://example.org/football-ontology#hasContractStartDate
+football:hasContractStartDate rdf:type owl:DatatypeProperty ;
+                              football:Player1 "2020-01-01"^^xsd:date ;
+                              football:Player2 "2019-01-01"^^xsd:date ;
+                              football:Player3 "2018-01-01"^^xsd:date ;
+                              football:Player4 "2021-01-01"^^xsd:date ;
+                              football:Player5 "2020-01-01"^^xsd:date .
+
+
+###  http://example.org/football-ontology#hasHeight
+football:hasHeight rdf:type owl:DatatypeProperty ;
+                   football:Player1 180 ;
+                   football:Player2 175 ;
+                   football:Player3 185 ;
+                   football:Player4 170 ;
+                   football:Player5 175 .
+
+
+###  http://example.org/football-ontology#hasKitColor
+football:hasKitColor rdf:type owl:DatatypeProperty ;
+                     football:Kit1 "Yellow" ;
+                     football:Kit2 "Black" ;
+                     football:Kit4 "Yellow" ;
+                     football:Kit5 "Black" .
+
+
+###  http://example.org/football-ontology#hasLeagueStartDate
+football:hasLeagueStartDate rdf:type owl:DatatypeProperty ;
+                            football:League1 "2023-01-01"^^xsd:date ;
+                            football:League2 "2023-01-01"^^xsd:date ;
+                            football:League3 "2024-01-01"^^xsd:date ;
+                            football:League4 "2022-08-01"^^xsd:date ;
+                            football:League5 "2022-08-01"^^xsd:date .
+
+
+###  http://example.org/football-ontology#hasManagerExperience
+football:hasManagerExperience rdf:type owl:DatatypeProperty ;
+                              football:Manager1 10 ;
+                              football:Manager2 8 ;
+                              football:Manager3 12 ;
+                              football:Manager4 15 ;
+                              football:Manager5 9 .
+
+
+###  http://example.org/football-ontology#hasMatchDate
+football:hasMatchDate rdf:type owl:DatatypeProperty ;
+                      football:Match1 "2023-05-15"^^xsd:date ;
+                      football:Match2 "2023-08-22"^^xsd:date ;
+                      football:Match3 "2024-02-10"^^xsd:date ;
+                      football:Match4 "2024-05-20"^^xsd:date ;
+                      football:Match5 "2024-10-08"^^xsd:date .
+
+
+###  http://example.org/football-ontology#hasMatchResult
+football:hasMatchResult rdf:type owl:DatatypeProperty .
+
+
+###  http://example.org/football-ontology#hasMatchTime
+football:hasMatchTime rdf:type owl:DatatypeProperty ;
+                      football:Match1 "15:00:00"^^xsd:time ;
+                      football:Match2 "18:30:00"^^xsd:time ;
+                      football:Match3 "20:15:00"^^xsd:time ;
+                      football:Match4 "14:45:00"^^xsd:time ;
+                      football:Match5 "17:30:00"^^xsd:time .
+
+
+###  http://example.org/football-ontology#hasPlayerNumber
+football:hasPlayerNumber rdf:type owl:DatatypeProperty ;
+                         football:Player1 10 ;
+                         football:Player2 7 ;
+                         football:Player3 5 ;
+                         football:Player4 20 ;
+                         football:Player5 11 .
+
+
+###  http://example.org/football-ontology#hasPreferredFoot
+football:hasPreferredFoot rdf:type owl:DatatypeProperty ;
+                          football:Player1 "Right" ;
+                          football:Player2 "Left" ;
+                          football:Player3 "Right" ;
+                          football:Player4 "Left" ;
+                          football:Player5 "Right" .
+
+
+###  http://example.org/football-ontology#hasRedCards
+football:hasRedCards rdf:type owl:DatatypeProperty ;
+                     football:Player1 0 ;
+                     football:Player2 0 ;
+                     football:Player3 1 ;
+                     football:Player4 0 ;
+                     football:Player5 1 .
+
+
+###  http://example.org/football-ontology#hasSeasonEndDate
+football:hasSeasonEndDate rdf:type owl:DatatypeProperty ;
+                          football:League1 "2023-12-31"^^xsd:date ;
+                          football:League2 "2023-12-31"^^xsd:date ;
+                          football:League3 "2024-12-31"^^xsd:date ;
+                          football:League4 "2022-12-31"^^xsd:date ;
+                          football:League5 "2022-12-31"^^xsd:date ;
+                          football:Season1 "2023-12-31"^^xsd:date ;
+                          football:Season2 "2024-12-31"^^xsd:date ;
+                          football:Season3 "2025-12-31"^^xsd:date ;
+                          football:Season4 "2026-12-31"^^xsd:date ;
+                          football:Season5 "2027-12-31"^^xsd:date .
+
+
+###  http://example.org/football-ontology#hasSeasonStartDate
+football:hasSeasonStartDate rdf:type owl:DatatypeProperty ;
+                            football:Season1 "2023-01-01"^^xsd:date ;
+                            football:Season2 "2024-01-01"^^xsd:date ;
+                            football:Season3 "2025-01-01"^^xsd:date ;
+                            football:Season4 "2026-01-01"^^xsd:date ;
+                            football:Season5 "2027-01-01"^^xsd:date .
+
+
+###  http://example.org/football-ontology#hasStadiumCapacity
+football:hasStadiumCapacity rdf:type owl:DatatypeProperty ;
+                            football:Stadium1 50000 ;
+                            football:Stadium2 45000 ;
+                            football:Stadium3 60000 ;
+                            football:Stadium4 55000 ;
+                            football:Stadium5 48000 .
+
+
+###  http://example.org/football-ontology#hasStamina
+football:hasStamina rdf:type owl:DatatypeProperty ;
+                    football:Player1 90 ;
+                    football:Player2 88 ;
+                    football:Player3 92 ;
+                    football:Player4 85 ;
+                    football:Player5 88 .
+
+
+###  http://example.org/football-ontology#hasTeamBudget
+football:hasTeamBudget rdf:type owl:DatatypeProperty .
+
+
+###  http://example.org/football-ontology#hasTicketPrice
+football:hasTicketPrice rdf:type owl:DatatypeProperty .
+
+
+###  http://example.org/football-ontology#hasTournamentLocation
+football:hasTournamentLocation rdf:type owl:DatatypeProperty ;
+                               football:Tournament1 "City1" ;
+                               football:Tournament2 "City2" ;
+                               football:Tournament3 "City3" ;
+                               football:Tournament4 "City4" ;
+                               football:Tournament5 "City5" .
+
+
+###  http://example.org/football-ontology#hasTournamentPrizeMoney
+football:hasTournamentPrizeMoney rdf:type owl:DatatypeProperty ;
+                                 football:Tournament1 1000000.00 ;
+                                 football:Tournament2 800000.00 ;
+                                 football:Tournament3 1200000.00 ;
+                                 football:Tournament4 900000.00 ;
+                                 football:Tournament5 1100000.00 .
+
+
+###  http://example.org/football-ontology#hasYellowCards
+football:hasYellowCards rdf:type owl:DatatypeProperty ;
+                        football:Player1 2 ;
+                        football:Player2 1 ;
+                        football:Player3 3 ;
+                        football:Player4 4 ;
+                        football:Player5 2 .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://example.org/football-ontology#Channel
+football:Channel rdf:type owl:Class .
+
+
+###  http://example.org/football-ontology#ClubPresident
+football:ClubPresident rdf:type owl:Class .
+
+
+###  http://example.org/football-ontology#Kit
+football:Kit rdf:type owl:Class .
+
+
+###  http://example.org/football-ontology#League
+football:League rdf:type owl:Class .
+
+
+###  http://example.org/football-ontology#Manager
+football:Manager rdf:type owl:Class .
+
+
+###  http://example.org/football-ontology#Match
+football:Match rdf:type owl:Class .
+
+
+###  http://example.org/football-ontology#Nationality
+football:Nationality rdf:type owl:Class .
+
+
+###  http://example.org/football-ontology#Player
+football:Player rdf:type owl:Class .
+
+
+###  http://example.org/football-ontology#PlayerPosition
+football:PlayerPosition rdf:type owl:Class .
+
+
+###  http://example.org/football-ontology#Referee
+football:Referee rdf:type owl:Class .
+
+
+###  http://example.org/football-ontology#Season
+football:Season rdf:type owl:Class .
+
+
+###  http://example.org/football-ontology#Stadium
+football:Stadium rdf:type owl:Class .
+
+
+###  http://example.org/football-ontology#Statistics
+football:Statistics rdf:type owl:Class .
+
+
+###  http://example.org/football-ontology#Team
+football:Team rdf:type owl:Class .
+
+
+###  http://example.org/football-ontology#Tournament
+football:Tournament rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://example.org/football-ontology#Channel1
+football:Channel1 rdf:type owl:NamedIndividual ,
+                           football:Channel .
+
+
+###  http://example.org/football-ontology#Channel2
+football:Channel2 rdf:type owl:NamedIndividual ,
+                           football:Channel .
+
+
+###  http://example.org/football-ontology#Channel3
+football:Channel3 rdf:type owl:NamedIndividual ,
+                           football:Channel .
+
+
+###  http://example.org/football-ontology#Channel4
+football:Channel4 rdf:type owl:NamedIndividual ,
+                           football:Channel .
+
+
+###  http://example.org/football-ontology#Channel5
+football:Channel5 rdf:type owl:NamedIndividual ,
+                           football:Channel .
+
+
+###  http://example.org/football-ontology#ClubPresident1
+football:ClubPresident1 rdf:type owl:NamedIndividual ,
+                                 football:ClubPresident .
+
+
+###  http://example.org/football-ontology#ClubPresident2
+football:ClubPresident2 rdf:type owl:NamedIndividual ,
+                                 football:ClubPresident .
+
+
+###  http://example.org/football-ontology#ClubPresident3
+football:ClubPresident3 rdf:type owl:NamedIndividual ,
+                                 football:ClubPresident .
+
+
+###  http://example.org/football-ontology#ClubPresident4
+football:ClubPresident4 rdf:type owl:NamedIndividual ,
+                                 football:ClubPresident .
+
+
+###  http://example.org/football-ontology#ClubPresident5
+football:ClubPresident5 rdf:type owl:NamedIndividual ,
+                                 football:ClubPresident .
+
+
+###  http://example.org/football-ontology#Kit1
+football:Kit1 rdf:type owl:NamedIndividual ,
+                       football:Kit .
+
+
+###  http://example.org/football-ontology#Kit2
+football:Kit2 rdf:type owl:NamedIndividual ,
+                       football:Kit .
+
+
+###  http://example.org/football-ontology#Kit4
+football:Kit4 rdf:type owl:NamedIndividual ,
+                       football:Kit .
+
+
+###  http://example.org/football-ontology#Kit5
+football:Kit5 rdf:type owl:NamedIndividual ,
+                       football:Kit .
+
+
+###  http://example.org/football-ontology#League1
+football:League1 rdf:type owl:NamedIndividual ,
+                          football:League .
+
+
+###  http://example.org/football-ontology#League2
+football:League2 rdf:type owl:NamedIndividual ,
+                          football:League .
+
+
+###  http://example.org/football-ontology#League3
+football:League3 rdf:type owl:NamedIndividual ,
+                          football:League .
+
+
+###  http://example.org/football-ontology#League4
+football:League4 rdf:type owl:NamedIndividual ,
+                          football:League .
+
+
+###  http://example.org/football-ontology#League5
+football:League5 rdf:type owl:NamedIndividual ,
+                          football:League .
+
+
+###  http://example.org/football-ontology#Manager1
+football:Manager1 rdf:type owl:NamedIndividual ,
+                           football:Manager .
+
+
+###  http://example.org/football-ontology#Manager2
+football:Manager2 rdf:type owl:NamedIndividual ,
+                           football:Manager .
+
+
+###  http://example.org/football-ontology#Manager3
+football:Manager3 rdf:type owl:NamedIndividual ,
+                           football:Manager .
+
+
+###  http://example.org/football-ontology#Manager4
+football:Manager4 rdf:type owl:NamedIndividual ,
+                           football:Manager .
+
+
+###  http://example.org/football-ontology#Manager5
+football:Manager5 rdf:type owl:NamedIndividual ,
+                           football:Manager .
+
+
+###  http://example.org/football-ontology#Match1
+football:Match1 rdf:type owl:NamedIndividual ,
+                         football:Match .
+
+
+###  http://example.org/football-ontology#Match2
+football:Match2 rdf:type owl:NamedIndividual ,
+                         football:Match .
+
+
+###  http://example.org/football-ontology#Match3
+football:Match3 rdf:type owl:NamedIndividual ,
+                         football:Match .
+
+
+###  http://example.org/football-ontology#Match4
+football:Match4 rdf:type owl:NamedIndividual ,
+                         football:Match .
+
+
+###  http://example.org/football-ontology#Match5
+football:Match5 rdf:type owl:NamedIndividual ,
+                         football:Match .
+
+
+###  http://example.org/football-ontology#Nationality1
+football:Nationality1 rdf:type owl:NamedIndividual ,
+                               football:Nationality .
+
+
+###  http://example.org/football-ontology#Nationality2
+football:Nationality2 rdf:type owl:NamedIndividual ,
+                               football:Nationality .
+
+
+###  http://example.org/football-ontology#Nationality3
+football:Nationality3 rdf:type owl:NamedIndividual ,
+                               football:Nationality .
+
+
+###  http://example.org/football-ontology#Nationality4
+football:Nationality4 rdf:type owl:NamedIndividual ,
+                               football:Nationality .
+
+
+###  http://example.org/football-ontology#Nationality5
+football:Nationality5 rdf:type owl:NamedIndividual ,
+                               football:Nationality .
+
+
+###  http://example.org/football-ontology#Player1
+football:Player1 rdf:type owl:NamedIndividual ,
+                          football:Player .
+
+
+###  http://example.org/football-ontology#Player2
+football:Player2 rdf:type owl:NamedIndividual ,
+                          football:Player .
+
+
+###  http://example.org/football-ontology#Player3
+football:Player3 rdf:type owl:NamedIndividual ,
+                          football:Player .
+
+
+###  http://example.org/football-ontology#Player4
+football:Player4 rdf:type owl:NamedIndividual ,
+                          football:Player .
+
+
+###  http://example.org/football-ontology#Player5
+football:Player5 rdf:type owl:NamedIndividual ,
+                          football:Player .
+
+
+###  http://example.org/football-ontology#PlayerPosition1
+football:PlayerPosition1 rdf:type owl:NamedIndividual ,
+                                  football:PlayerPosition .
+
+
+###  http://example.org/football-ontology#PlayerPosition2
+football:PlayerPosition2 rdf:type owl:NamedIndividual ,
+                                  football:PlayerPosition .
+
+
+###  http://example.org/football-ontology#PlayerPosition3
+football:PlayerPosition3 rdf:type owl:NamedIndividual ,
+                                  football:PlayerPosition .
+
+
+###  http://example.org/football-ontology#PlayerPosition4
+football:PlayerPosition4 rdf:type owl:NamedIndividual ,
+                                  football:PlayerPosition .
+
+
+###  http://example.org/football-ontology#PlayerPosition5
+football:PlayerPosition5 rdf:type owl:NamedIndividual ,
+                                  football:PlayerPosition .
+
+
+###  http://example.org/football-ontology#Referee10
+football:Referee10 rdf:type owl:NamedIndividual ,
+                            football:Referee .
+
+
+###  http://example.org/football-ontology#Referee6
+football:Referee6 rdf:type owl:NamedIndividual ,
+                           football:Referee .
+
+
+###  http://example.org/football-ontology#Referee7
+football:Referee7 rdf:type owl:NamedIndividual ,
+                           football:Referee .
+
+
+###  http://example.org/football-ontology#Referee8
+football:Referee8 rdf:type owl:NamedIndividual ,
+                           football:Referee .
+
+
+###  http://example.org/football-ontology#Referee9
+football:Referee9 rdf:type owl:NamedIndividual ,
+                           football:Referee .
+
+
+###  http://example.org/football-ontology#Season1
+football:Season1 rdf:type owl:NamedIndividual ,
+                          football:Season .
+
+
+###  http://example.org/football-ontology#Season2
+football:Season2 rdf:type owl:NamedIndividual ,
+                          football:Season .
+
+
+###  http://example.org/football-ontology#Season3
+football:Season3 rdf:type owl:NamedIndividual ,
+                          football:Season .
+
+
+###  http://example.org/football-ontology#Season4
+football:Season4 rdf:type owl:NamedIndividual ,
+                          football:Season .
+
+
+###  http://example.org/football-ontology#Season5
+football:Season5 rdf:type owl:NamedIndividual ,
+                          football:Season .
+
+
+###  http://example.org/football-ontology#Stadium1
+football:Stadium1 rdf:type owl:NamedIndividual ,
+                           football:Stadium .
+
+
+###  http://example.org/football-ontology#Stadium2
+football:Stadium2 rdf:type owl:NamedIndividual ,
+                           football:Stadium .
+
+
+###  http://example.org/football-ontology#Stadium3
+football:Stadium3 rdf:type owl:NamedIndividual ,
+                           football:Stadium .
+
+
+###  http://example.org/football-ontology#Stadium4
+football:Stadium4 rdf:type owl:NamedIndividual ,
+                           football:Stadium .
+
+
+###  http://example.org/football-ontology#Stadium5
+football:Stadium5 rdf:type owl:NamedIndividual ,
+                           football:Stadium .
+
+
+###  http://example.org/football-ontology#Statistics1
+football:Statistics1 rdf:type owl:NamedIndividual ,
+                              football:Statistics .
+
+
+###  http://example.org/football-ontology#Statistics2
+football:Statistics2 rdf:type owl:NamedIndividual ,
+                              football:Statistics .
+
+
+###  http://example.org/football-ontology#Statistics3
+football:Statistics3 rdf:type owl:NamedIndividual ,
+                              football:Statistics .
+
+
+###  http://example.org/football-ontology#Statistics4
+football:Statistics4 rdf:type owl:NamedIndividual ,
+                              football:Statistics .
+
+
+###  http://example.org/football-ontology#Team1
+football:Team1 rdf:type owl:NamedIndividual ,
+                        football:Team .
+
+
+###  http://example.org/football-ontology#Team2
+football:Team2 rdf:type owl:NamedIndividual ,
+                        football:Team .
+
+
+###  http://example.org/football-ontology#Team3
+football:Team3 rdf:type owl:NamedIndividual ,
+                        football:Team .
+
+
+###  http://example.org/football-ontology#Team4
+football:Team4 rdf:type owl:NamedIndividual ,
+                        football:Team .
+
+
+###  http://example.org/football-ontology#Team5
+football:Team5 rdf:type owl:NamedIndividual ,
+                        football:Team .
+
+
+###  http://example.org/football-ontology#Tournament1
+football:Tournament1 rdf:type owl:NamedIndividual ,
+                              football:Tournament .
+
+
+###  http://example.org/football-ontology#Tournament2
+football:Tournament2 rdf:type owl:NamedIndividual ,
+                              football:Tournament .
+
+
+###  http://example.org/football-ontology#Tournament3
+football:Tournament3 rdf:type owl:NamedIndividual ,
+                              football:Tournament .
+
+
+###  http://example.org/football-ontology#Tournament4
+football:Tournament4 rdf:type owl:NamedIndividual ,
+                              football:Tournament .
+
+
+###  http://example.org/football-ontology#Tournament5
+football:Tournament5 rdf:type owl:NamedIndividual ,
+                              football:Tournament .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+football:locatedIn football:Team1 football:Stadium1 ;
+                   football:Team2 football:Stadium2 ;
+                   football:Team3 football:Stadium3 ;
+                   football:Team4 football:Stadium4 ;
+                   football:Team5 football:Stadium5 .
+
+
+###  Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi
